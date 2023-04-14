@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+  background-color: peachpuff;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  text-align: center;
+  margin : 0 auto;
+}
+
+.sommaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vh;
+  height: 40vh;
+  align-self: center;
+  font-family: system-ui, sans-serif;
+  border: 10px double grey;
+  margin: 6vh;
+}
+
+.citation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5% 0%;
+}
+
+.achat-livre {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 40vh;
+}
+
+.livres-disponibles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60vh;
+}
+
+.options {
+  height: 35vh;
+  width: 70vh;
+}
+
+
+// Ajout CSS pour le menu sélectionnable sommaire
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: .25s ease;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+
+	li {
+		margin-left: .75em;
+		margin-right: .75em;
+	}
+
+	&:hover {
+		a {
+			color: #CCC;
+			&:hover {
+				color: #000;
+				box-shadow: 0 2px 0 0 currentcolor;
+			}
+		}
+	}
+}
+
