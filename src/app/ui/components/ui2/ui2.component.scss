@@ -1,19 +1,20 @@
-.content {
-  background: var(--app-light);
-}
-
 header {
-  background-image: url('https://media.istockphoto.com/id/1415936121/fr/vectoriel/livres-sur-%C3%A9tag%C3%A8res-sans-couture-motif-biblioth%C3%A8que-ou-%C3%A9tag%C3%A8res-biblioth%C3%A8que-ou.jpg?s=1024x1024&w=is&k=20&c=mNSgob3-wdDkfLDbuEALp8Vodg2iwSGh3MtD8rRu_UE=');
-  background-size: 30%;
-  background-position: center;
-}
-
-aside {
-  background: var(--app-dark);
+  // background-image: url('https://media.istockphoto.com/id/1415936121/fr/vectoriel/livres-sur-%C3%A9tag%C3%A8res-sans-couture-motif-biblioth%C3%A8que-ou-%C3%A9tag%C3%A8res-biblioth%C3%A8que-ou.jpg?s=1024x1024&w=is&k=20&c=mNSgob3-wdDkfLDbuEALp8Vodg2iwSGh3MtD8rRu_UE=');
+  // background-size: 30%;
+  // background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  margin: 0 10vw;
+  background-color: pink;
 }
 
 footer {
-  background-image: url('https://media.istockphoto.com/id/1415936121/fr/vectoriel/livres-sur-%C3%A9tag%C3%A8res-sans-couture-motif-biblioth%C3%A8que-ou-%C3%A9tag%C3%A8res-biblioth%C3%A8que-ou.jpg?s=1024x1024&w=is&k=20&c=mNSgob3-wdDkfLDbuEALp8Vodg2iwSGh3MtD8rRu_UE=');
-  background-size: 30%;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  margin: 0 10vw;
+  background-color: pink;
 }
