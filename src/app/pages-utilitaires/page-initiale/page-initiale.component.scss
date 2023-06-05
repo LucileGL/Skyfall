@@ -1,9 +1,10 @@
 
 html {
-  background-color: lightblue;
+  background-color: #d3f5fb;
 }
 
 body {
+  font-family: "Regular Brush", sans-serif;
   height: 73vh;
   width: 80%;
   margin-left:auto;
@@ -11,11 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
 }
 
 .slogan {
-  height: 15vh;
+  height: 10vh;
   width: 100vw;
   background-image: url('../../../assets/images/BackgroundFrench.png');
   background-size: 30%;
@@ -23,31 +23,36 @@ body {
 }
 
 .inconnu {
-  background-color: yellow;
   height: 15vh;
   width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
 }
 
 .modele {
-  background-color: beige;
   height: 15vh;
   width: 100%;
+  border: 1px solid grey;
+  padding: 15px;
 }
 
 .objectifs {
-  background-color: white;
-  height: 15vh;
+  height: 17.5vh;
+  border: 1px solid grey;
+  padding: 15px;
 }
 
 .presentation {
-  background-color: aquamarine;
-  height: 30vh;
+  height: 35vh;
   width: 50%;
+  border: 1px solid grey;
+  padding: 15px;
 }
 
 .voltaire {
-  background-color: aqua;
-  height: 15vh;
+  height: 17.5vh;
+  border: 1px solid grey;
+  padding: 15px;
 }
 
 .contenu {
@@ -57,7 +62,7 @@ body {
 }
 
 .groupe {
-  height: 25vh;
+  height: 35vh;
   width: 50%;
-  background-color: green;
+//  background-color: green;
 }
